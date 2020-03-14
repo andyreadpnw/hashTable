@@ -4,6 +4,7 @@ function hashStringToInt(s, tableSize) {
     hash = (hash * s.charCodeAt(i)) % tableSize;
   }
   return hash;
+  console.log("hash");
 }
 
 class HashTable {
